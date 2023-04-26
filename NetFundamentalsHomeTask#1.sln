@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFundamentals-ConsoleApp", "NetFundamentalsHomeTask#1\NetFundamentals-ConsoleApp.csproj", "{BB28AEB5-BDF2-416A-BDA3-C2D21A43DCEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFundamentals-ConsoleApp", "NetFundamentalsHomeTask#1\NetFundamentals-ConsoleApp.csproj", "{BB28AEB5-BDF2-416A-BDA3-C2D21A43DCEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringLibraries", "StringLibraries\StringLibraries.csproj", "{3F3902B2-9C85-46CB-91E5-37A5D7562030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringLibraries", "StringLibraries\StringLibraries.csproj", "{3F3902B2-9C85-46CB-91E5-37A5D7562030}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFundamentals-WinFormApp", "NetFundamentals-WinFormApp\NetFundamentals-WinFormApp.csproj", "{986FC491-28C7-486D-B278-50EBB8F093E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUI-HelloWorld", "MAUI-HelloWorld\MAUI-HelloWorld.csproj", "{ED039A82-1083-48AC-8B10-336C49B58B65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,12 @@ Global
 		{986FC491-28C7-486D-B278-50EBB8F093E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986FC491-28C7-486D-B278-50EBB8F093E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986FC491-28C7-486D-B278-50EBB8F093E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED039A82-1083-48AC-8B10-336C49B58B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED039A82-1083-48AC-8B10-336C49B58B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED039A82-1083-48AC-8B10-336C49B58B65}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED039A82-1083-48AC-8B10-336C49B58B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED039A82-1083-48AC-8B10-336C49B58B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED039A82-1083-48AC-8B10-336C49B58B65}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
