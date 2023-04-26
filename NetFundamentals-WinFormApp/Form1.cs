@@ -19,6 +19,8 @@ namespace NetFundamentals_WinFormApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Commented-out for task#2
+            //MessageBox.Show($"Hello, {inputText.Text}!");
             MessageBox.Show(inputText.Text.Concate());
         }
     }
